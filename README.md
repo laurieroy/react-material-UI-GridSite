@@ -1,3 +1,5 @@
+# This is a code-along w/Mammoth Interactive to learn Material-UI.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

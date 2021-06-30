@@ -42,10 +42,10 @@ export default function NavigationBar() {
     <Container>
       <Toolbar className={classes.toolBar}>
         <Typography component="h1" variant="h4" className={classes.siteTitle}>
-          Laurie Roy
+          Mammoth Interactive
         </Typography>
         <Box className={classes.menuBox}>
-          {["projects", "about", "contact"].map((menuOption) => (
+          {["home", "courses", "sign up"].map((menuOption) => (
             <Link
               component="button"
               variant="body1"

@@ -24,14 +24,14 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   menuIcon: {
-    color: "white"
+    color: "white",
   },
   menuOption: {
     padding: theme.spacing(1),
     [theme.breakpoints.up("md")]: {
       paddingLeft: theme.spacing(3),
     },
-    color: 'white'
+    color: "white",
   },
   siteTitle: {
     fontWeight: "bold",
@@ -72,7 +72,6 @@ export default function NavigationBar() {
   const displayLargeMenu = () => {
     return (
       <Toolbar className={classes.toolBar}>
-
         <Typography component="h1" variant="h5" className={classes.siteTitle}>
           Mammoth Interactive
         </Typography>
@@ -111,7 +110,7 @@ export default function NavigationBar() {
             onClick: handleToggleMenuOpen,
           }}
         >
-          <MenuIcon className={classes.menuIcon}/>
+          <MenuIcon className={classes.menuIcon} />
         </IconButton>
         <Drawer
           {...{

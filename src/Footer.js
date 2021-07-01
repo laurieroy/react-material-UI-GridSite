@@ -4,7 +4,7 @@ import { Container, Link, makeStyles, Typography } from "@material-ui/core";
 function Copyright() {
   return (
     <Typography>
-      {"Copyright "}
+      {"© "}
       <Link href="https://training.mammothinteractive.com">Courses</Link>
       {" " + new Date().getFullYear()}
     </Typography>
